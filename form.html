@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>Formulario</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<nav>
-    <h2>Mi App</h2>
-</nav>
+    <nav>
+        <h2>Mi App</h2>
+        <button type="submit" id="buttonBack">&lt; Volver</button>
+    </nav>
 
-<div class="container">
-    <h3>Formulario de Registro</h3>
-    <form id="formulario">
-        <input type="text" placeholder="Nombre">
-        <input type="email" placeholder="Correo">
-        <input type="number" placeholder="Edad">
-        <select>
-            <option>Selecciona ciudad</option>
-            <option>Santiago</option>
-            <option>Valparaíso</option>
-        </select>
-        <textarea placeholder="Comentarios"></textarea>
-        <button type="submit">Enviar</button>
-    </form>
-</div>
+    <div class="container">
+        <h3>Formulario de Registro</h3>
+        <form id="formulario">
+            <input type="text" placeholder="Nombre">
+            <input type="email" placeholder="Correo">
+            <input type="number" placeholder="Edad">
+            <select>
+                <option>Selecciona ciudad</option>
+                <option>Santiago</option>
+                <option>Valparaíso</option>
+            </select>
+            <textarea placeholder="Comentarios"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="errorForm"></p>
+    </div>
 
     <script src="form.js"></script>
 </body>
+
 </html>
